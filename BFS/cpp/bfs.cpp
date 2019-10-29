@@ -2,9 +2,7 @@
 #include <queue>
 #include <vector>
 #include <iomanip>
-
 using namespace std;
-
 class Graph {
   public:
     // initialize verticies with constructor
@@ -15,7 +13,6 @@ class Graph {
     vector<vector<int>> adj_list;
     vector<int> dist;
 };
-
 void BFS(Graph& g, int source);
 void print(const Graph& g);
 
